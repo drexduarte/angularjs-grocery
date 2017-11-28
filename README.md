@@ -1,2 +1,3 @@
-Hey there!
-This is my first app using AngularJS. I've created it based on Udemy course named "AngularJS for Beginners", but using John Papa Style Guide.
+# AngularJS Grocery List
+
+Hey there! This is my first app using AngularJS. I've created it based on the course called "AngularJS for Beginners" (Udemy) but using John Papa's Style Guide.
