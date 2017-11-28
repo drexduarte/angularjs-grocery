@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="groceryListApp" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#!/">
+					<span class="glyphicon glyphicon-apple" style="color:#5bdb48"></span>
+					Grocery List
+				</a>
+			</div>
+		</div>
+	</nav>
+	<div class="container" ng-view></div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/libs/angular.js"></script>
+	<script src="assets/libs/angular-route.min.js"></script>
+	<script src="assets/libs/underscore-min.js"></script>
+	<script src="app/app.module.js"></script>
+	<script src="app/app.config.js"></script>
+	<script src="app/controllers/list.controller.js"></script>
+	<script src="app/controllers/item.controller.js"></script>
+	<script src="app/services/grocery.service.js"></script>
+	<script src="app/components/grocery-item.spec.js"></script>
+</body>
+</html>

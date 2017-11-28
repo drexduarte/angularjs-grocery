@@ -1,0 +1,18 @@
+/*.strike{
+    text-decoration: line-through;
+}*/
+.grocery-item{
+    font-weight:bold;
+}
+
+.strike{
+    position: relative;
+}
+.strike::after{
+    border-bottom: 3px solid black;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 40%;
+}

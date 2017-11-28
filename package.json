@@ -1,0 +1,14 @@
+{ 
+    "name": "grocery-list-app", 
+    "version": "0.0.1", 
+    "description": "Grocery List App", 
+    "scripts": { 
+      "dev": "lite-server", 
+      "start": "npm run dev"
+    }, 
+    "author": "Andre Duarte", 
+    "license": "ISC", 
+    "devDependencies": { 
+      "lite-server": "^1.3.1" 
+    } 
+ }
